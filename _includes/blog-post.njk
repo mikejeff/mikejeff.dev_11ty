@@ -1,0 +1,21 @@
+---
+siteTitle: Mike Jeffery
+
+---
+
+<!doctype html>
+<html lang="en">
+
+  {% include "head.njk" %}
+
+<body>
+
+	{% include "header.njk" %}
+	<article>
+		{{ content | safe }}
+	</article>
+	{% include "footer.njk" %}
+
+</body>
+
+</html>
