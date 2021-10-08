@@ -15,8 +15,8 @@
 
 font-family: 'Source Serif Pro', serif; */
 body {
-	margin: 10px;
-	background-color: var(--pale-grey);
+	margin: 0px;
+	/* background-color: var(--pale-grey); */
 }
 html{
 	font-family: 'Montserrat', sans-serif;
@@ -25,6 +25,7 @@ html{
 
 p {
 	font-family: 'Source Serif Pro', serif; 
+	font-size: 18px;
 }
 
 
