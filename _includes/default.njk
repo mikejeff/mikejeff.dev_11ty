@@ -10,7 +10,9 @@ siteTitle: Mike Jeffery
 
 <body>
   {% include "header.njk" %}
-	{{ content | safe }}
+	<div class="_site-width _m_zero-auto">
+		{{ content | safe }}
+	</div>
   {% include "footer.njk" %}
 </body>
 

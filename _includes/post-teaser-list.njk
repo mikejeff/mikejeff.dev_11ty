@@ -1,0 +1,23 @@
+<div class="post-teaser-list _p-std">
+	<div class="list-header _mb_std">Latest</div>
+	<ul>
+		{%- for post in collections.blog | reverse -%}
+		<li class="_mb_std">
+			<div class="teaser-card">
+				<div class="teaser-card-copy">
+					<h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+					{% if post.data.tldr %}
+					<p>{{ post.data.tldr }}</p>
+					{% endif %} 
+					<small>{{ post.date }}</small>
+				</div>
+				{% if post.data.img %}
+				<div class="teaser-card-img">
+					<img src="{{ post.data.img }}" alt="{{ post.data.imgAlt }}">
+				</div>
+				{% endif %} 
+			</div>
+		</li>
+		{%- endfor -%}
+	</ul>
+</div>

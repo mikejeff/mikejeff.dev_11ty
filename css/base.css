@@ -1,22 +1,18 @@
 :root {
-	--dark-black: 	hsl(230, 15%, 7.8%);
-	--black: 				hsl(207.7, 7.8%, 20%);
+	--black: 				#000;
 	--light-grey:		hsl(0, 0%, 62.4%);
-	--pale-grey:		hsl(0, 0%, 91.2%);
-	--white: 				hsl(0, 0%, 99%);
+	--white: 				#fff;
 	--green: 				hsl(115.6, 28.3%, 47.1%);
 	--yellow: 			hsl(54, 47.9%, 63.1%);
 	--red: 					hsl(348.2, 51.5%, 55.5%);
 	--blue: 				hsl(200.3, 47.6%, 51.4%);
-	--pale-blue:		hsl(198, 70%, 98.1%);
 }
 
 /* font-family: 'Montserrat', sans-serif;
 
 font-family: 'Source Serif Pro', serif; */
 body {
-	margin: 10px;
-	background-color: var(--pale-grey);
+	margin: 0px;
 }
 html{
 	font-family: 'Montserrat', sans-serif;
@@ -25,6 +21,7 @@ html{
 
 p {
 	font-family: 'Source Serif Pro', serif; 
+	font-size: 18px;
 }
 
 
