@@ -3,6 +3,8 @@ layout: blog-post.njk
 tags: ['blog']
 title: Help! I'm stuck in the mud!
 date: 2021-05-05
+editDate: Last Modified
+createdDate: Created
 tldr: How a to-do list can help get you out of a rut.
 img: "../../img/blog/mud.png"
 imgAlt: "Truck stuck in the mud"

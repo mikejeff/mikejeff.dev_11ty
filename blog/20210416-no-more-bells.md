@@ -3,10 +3,12 @@ layout: blog-post.njk
 tags: ['blog']
 title: No more bells and whistles, a working title
 date: 2021-04-26
+editDate: Last Modified
+createdDate: Created
 tldr: A mission statement for this site
 ---
 # {{ title }}
-Published on April 16, 2021
+Published on {{ date }}
 
 It feels like I have tried to launch my own personal site no less than 3 dozen times. Each time is a failure for one reason or another. The most common reason is that I can't decide on a reason for the site to exist. Is it a side project to learn a new framework? Is it a side project to share my views on technology, or other subjects? What. Is. It? Depending on the day, I am getting bogged down in either the technology, or the design, or the content, and I end up creating nothing.
 
